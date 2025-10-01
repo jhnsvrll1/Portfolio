@@ -106,8 +106,8 @@ const Home = () => {
             </h1>
             <p className="hero-subtitle">Undergraduate on Computer Science Major. Full Stack Developer & UI/UX Enthusiast</p>
             <p className="hero-description">
-              I create beautiful, responsive web applications with modern technologies.
-              Passionate about clean code, user experience, and innovative solutions.
+               Passionate about crafting seamless digital experiences, from user-focused design to full-stack development.
+               I thrive on clean code and creating innovative, intuitive solutions.
             </p>
             <div className="hero-buttons">
               <button onClick={() => scrollToSection('projects')} className="btn-primary">
@@ -136,14 +136,11 @@ const Home = () => {
           <div className="about-content">
             <div className="about-text">
               <p>
-                I'm a passionate full-stack developer with 3+ years of experience creating 
-                digital solutions that make a difference. I love turning complex problems 
-                into simple, beautiful designs.
+               A motivated 5th-semester Computer Science student at BINUS University with a passion for the entire product development lifecycle. I enjoy bringing ideas to life,
+                from initial design to full-stack implementation, and I am eager to apply my skills in a challenging internship opportunity.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies, 
-                contributing to open-source projects, or enjoying a good cup of coffee 
-                while planning the next big project.
+                When I'm not coding, you can find me exploring new technologies, or enjoying a good cup of coffee 
               </p>
               <div className="skills-grid">
                 {skills.map((skill, index) => (
