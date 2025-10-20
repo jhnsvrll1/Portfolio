@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Github, Linkedin, Mail, ExternalLink, Code, User, Briefcase, MessageSquare,Phone } from 'lucide-react';
 import './Home.css';
+import myAvatar from '../assets/PasFoto.png';
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,31 +28,31 @@ const Home = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack React application with Node.js backend, featuring user authentication, payment integration, and admin dashboard.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "MealsToGo",
+      description: "Online Delivery App",
+      tech: ["Figma", "HTML5", "CSS3", "React"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      tech: ["React", "TypeScript", "Firebase", "Material-UI"],
+      title: "Movie Recommender",
+      description: "AI Powered Movie Recommender Web ",
+      tech: ["React", "HTML5", "Dataset", "CSS3", "Ai Integration"],
       github: "#",
       demo: "#"
     },
     {
-      title: "Weather Dashboard",
-      description: "Interactive weather application with location-based forecasts, historical data visualization, and responsive design.",
-      tech: ["React", "API Integration", "Chart.js", "CSS3"],
+      title: "Posture Guard",
+      description: "Posture Correcting App using AI.",
+      tech: ["React", "Ai Integration", "Dataset", "CSS3"],
       github: "#",
       demo: "#"
     }
   ];
 
   const skills = [
-    "JavaScript", "React.js", "Node.js", "TypeScript", "Python", "MongoDB", 
-    "PostgreSQL", "Git", "Docker", "AWS", "HTML5", "CSS3"
+    "JavaScript", "React.js", "Node.js", "Python", 
+    "SQL", "Git", "HTML5", "CSS3"
   ];
 
   return (
@@ -120,7 +121,7 @@ const Home = () => {
           </div>
           <div className="hero-image">
             <div className="hero-avatar">
-              <User size={80} />
+              < myAvatar size={50}   />
             </div>
           </div>
         </div>
