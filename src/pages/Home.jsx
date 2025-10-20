@@ -52,7 +52,7 @@ const Home = () => {
 
   const skills = [
     "JavaScript", "React.js", "Node.js", "Python", 
-    "SQL", "Git", "HTML5", "CSS3"
+    "SQL", "Git", "HTML5", "CSS3", "C++", "C#"
   ];
 
   return (
