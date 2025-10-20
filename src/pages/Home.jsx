@@ -105,7 +105,7 @@ const Home = () => {
               <span className="hero-greeting">Hi, I'm</span>
               <span className="hero-name">Johannes Verrell Vittorio</span>
             </h1>
-            <p className="hero-subtitle">Undergraduate on Computer Science Major. Full Stack Developer & UI/UX Enthusiast</p>
+            <p className="hero-subtitle">Undergraduate on Computer Science Major. Full Stack & UI/UX Enthusiast</p>
             <p className="hero-description">
                Passionate about crafting seamless digital experiences, from user-focused design to full-stack development.
                I thrive on clean code and creating innovative, intuitive solutions.
